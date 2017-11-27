@@ -5,7 +5,7 @@ import hashlib
 import re
 import threading
 import MerkleTrees
-import mysql.connector
+
 def __mining(recvTx):
     try:
         block=Block()
